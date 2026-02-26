@@ -1,4 +1,7 @@
 package ch02;
+//import java.lang.System;
+
+//import java.lang.Integer; 컴파일러가 자동으로 불러와줌 / 존나 많이 써서
 
 public class NumberTypeDemo {
 

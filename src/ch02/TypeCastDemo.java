@@ -17,7 +17,7 @@ public class TypeCastDemo {
 		double res5 = 10 / 3; // 정수를 계산 하고 double로 형변환 따로 했기 때문에 3.0 이 됨
 		System.out.println(res5);
 
-		// 실수의 나눗셈 -> 소숫점 까지 포함한 결과가 출
+		// 실수의 나눗셈 -> 소숫점 까지 포함한 결과가 출력
 		double res2 = 10.0 / 3.0;
 		System.out.println(res2);
 
