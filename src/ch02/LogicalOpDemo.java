@@ -24,7 +24,7 @@ public class LogicalOpDemo {
 		// 쇼트서킷
 		// /by zero 예제
 
-		int i = 0; // 0 과 1 을 넣어 결과값 확인하기 - 어떤 연산이 실행되는
+		int i = 0; // 0 과 1 을 넣어 결과값 확인하기 - 어떤 연산이 실행되는지 확인
 		if (i == 0) {
 			System.out.println(" 0 으로 나눌 수 없습니다.");
 		} else {
