@@ -43,11 +43,7 @@ public class BankQuestion1 {
 
 			} else {
 				System.out.println("화면에 표시된 번호 내에서 다시 선택해 주세요. \n"); // 선택지 이외
-
 			}
-
 		}
-
 	}
-
 }
