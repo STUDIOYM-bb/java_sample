@@ -1,0 +1,27 @@
+package exercise;
+
+public class CircleEx {
+
+	public static void main(String[] args) {
+		// Circle instance 를 만들 때마다 빨간색의 크기가 100인 circle 이 1개 생성되었습니다.
+		// 노란색의 크기가 50인 circle 이 2개 생성되었습니다 를 출력하는 클래스를 작성하시오.
+
+		Circle c1 = new Circle("빨간색", 100);
+		c1.printInfo();
+
+		Circle c2 = new Circle("노란색", 50);
+		c2.printInfo();
+
+		Circle c3 = new Circle("파란색", 30);
+		c3.printInfo();
+
+		System.out.println(c1);
+		System.out.println(c1.getClass());
+		System.out.println(c1.hashCode());
+		System.out.println(c1.toString());
+		System.out.println(c2);
+		System.out.println(c3);
+
+	}
+
+}
