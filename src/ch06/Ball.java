@@ -1,6 +1,6 @@
 package ch06;
 
-public class Ball extends Circle { // 자식
+public class Ball extends Circle2 { // 자식
 	@Override
 	public void findArea() {
 		super.findArea();
@@ -9,7 +9,7 @@ public class Ball extends Circle { // 자식
 
 }
 
-class Circle { // 부모
+class Circle2 { // 부모
 	int radius;
 
 	private void secret() {

@@ -3,7 +3,7 @@ package ch06;
 public class Exer6_2 {
 
 	public static void main(String[] args) {
-		MovablePoint y = new MovablePoint(1, 1, 1, 1);
+		MovablePoint = new MovablePoint(1, 1, 1, 1);
 
 	}
 
@@ -32,10 +32,11 @@ class Point {
 		this.x = x;
 	}
 
-	public void print() {
-		System.out.println(x + " " + y);
+	public void setY(int y) {
+		this.y = y;
 	}
-	// 메서드
+	
+	public 
 
 }
 
