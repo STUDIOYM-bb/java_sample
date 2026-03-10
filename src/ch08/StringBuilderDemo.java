@@ -35,3 +35,20 @@ public class StringBuilderDemo {
 
 	}
 }
+
+
+int r;
+int s;
+int t = 0;
+while (true) {
+	s = a / 10;
+	if (s == 0) {
+		t = t + a;
+		break;
+	} else {
+		r = a % 10;
+		t = t + r;
+		a = s;
+	}
+}
+return t;

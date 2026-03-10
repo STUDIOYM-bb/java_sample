@@ -11,7 +11,6 @@ public class Exercise2 {
 	}
 
 	public static <T extends Number> void getnum(T num) {
-
 		System.out.println(num);
 	}
 }

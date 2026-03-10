@@ -11,4 +11,5 @@ public class Exercise {
 	static <T, V> void print(T s, V t) {
 		System.out.println(s + ":" + t);
 	}
+
 }
