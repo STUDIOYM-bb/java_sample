@@ -14,6 +14,14 @@ public class GenericDemo {
 		Boricha beverage2 = cup2.getBeverage();
 		beverage2.drink();
 
+		genericMethod(100);
+		genericMethod("hello");
+
+	}
+
+	public static <T> void genericMethod(T data) {
+		System.out.println(data);
+
 	}
 
 }

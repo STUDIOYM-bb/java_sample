@@ -14,7 +14,7 @@ public class GenericinheritDemo {
 		list2.add(new Beer());
 
 		inherit(list1);
-		inherit(list2);
+//		inherit(list2);
 
 		inherit2(new Beverage());
 		inherit2(new Beer());

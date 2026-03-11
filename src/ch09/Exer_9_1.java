@@ -1,6 +1,6 @@
 package ch09;
 
-public class Exer_8_1 {
+public class Exer_9_1 {
 
 	public static void main(String[] args) {
 		Box<Integer> i = new Box<>(); // Integer 타입 Box i 생성
@@ -11,7 +11,6 @@ public class Exer_8_1 {
 		s.set("만능이네!"); // s 매개변수 t에 만능이네! 라는 String 값 전달 후 필드 t 에 저장
 		System.out.println(s.get()); // 필드 t에 저장된 값 반환
 	}
-
 }
 
 class Box<T> {
@@ -24,5 +23,4 @@ class Box<T> {
 	public void set(T t) {
 		this.t = t;
 	}
-
 }
