@@ -1,6 +1,6 @@
 package nakseo;
 
-public class Backjoon {
+public class ThisIsJava {
 
 	public static void main(String[] args) {
 		int e1 = 0;
