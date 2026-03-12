@@ -38,6 +38,8 @@ public class Car {
 	}
 
 	public static final List<Car> cars = Arrays.asList(new Car("소나타", true, 18, 210000),
-			new Car("아반테", true, 10, 70000), new Car("싼타페", false, 1, 10000));
+			new Car("아반테", true, 10, 70000), new Car("싼타페", false, 1, 10000), new Car("코란도", false, 15, 200000),
+			new Car("에쿠스", true, 12, 180000), new Car("캐스퍼", true, 2, 50000), new Car("K5", true, 4, 60000),
+			new Car("팰리세이드", true, 6, 120000), new Car("스타리아", false, 1, 18000));
 
 }
