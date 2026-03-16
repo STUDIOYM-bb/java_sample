@@ -3,7 +3,7 @@ package ch11;
 import java.util.HashMap;
 import java.util.Map;
 
-public class Exer_11_7 {
+public class Exer11_7 {
 
 	public static void main(String[] args) {
 		Map<String, Integer> map = new HashMap<>();
