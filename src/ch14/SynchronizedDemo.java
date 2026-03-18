@@ -18,12 +18,14 @@ public class SynchronizedDemo {
 
 class SharedCar {
 	public void drive(String driver, String where) {
-		System.out.println(driver + "가 자동차에 탔습니다.");
-		Random r = new Random();
-		for (int i = 0; i < r.nextInt(1, 4); i++) {
-			System.out.println(driver + "가 자동차를 운전합니다.");
+		synchronized (this) {
+			System.out.println(driver + "가 자동차에 탔습니다.");
+			Random r = new Random();
+			for (int i = 0; i < r.nextInt(1, 4); i++) {
+				System.out.println(driver + "가 자동차를 운전합니다.");
+			}
+			System.out.println(driver + "가 " + where + "에 도착했습니다.");
 		}
-		System.out.println(driver + "가 " + where + "에 도착했습니다.");
 	}
 }
 
@@ -33,10 +35,10 @@ class CarThread extends Thread {
 	private String where;
 
 	public CarThread(String driver, SharedCar car, String where) {
-		super();
 		this.driver = driver;
 		this.car = car;
 		this.where = where;
+
 	}
 
 	@Override

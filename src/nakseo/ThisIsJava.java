@@ -64,7 +64,6 @@ public class ThisIsJava {
 			default:
 				System.out.println("잘못된 메뉴입니다.");
 			}
-
 		}
 	}
 }
